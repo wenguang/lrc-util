@@ -11,6 +11,7 @@
         <module>system-cock</module>
         <module>system-clock</module>
         <module>bits-operation</module>
+        <module>snowflake</module>
     </modules>
     <packaging>pom</packaging>
 

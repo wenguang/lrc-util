@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bits-operation/bits-operation.iml" filepath="$PROJECT_DIR$/bits-operation/bits-operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowflake/snowflake.iml" filepath="$PROJECT_DIR$/snowflake/snowflake.iml" />
       <module fileurl="file://$PROJECT_DIR$/system-clock/system-clock.iml" filepath="$PROJECT_DIR$/system-clock/system-clock.iml" />
     </modules>
   </component>
