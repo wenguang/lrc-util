@@ -20,6 +20,10 @@ SnowFlake 算法生成的 ID 大致上是按照时间递增的。用在分布式
 
 **snowflake算法的调整** 
 
+![](https://github.com/wenguang/lrc-util/blob/master/snowbflake-mod.png?raw=true)
+
+
+
 
 
 
@@ -32,4 +36,20 @@ SnowFlake 算法生成的 ID 大致上是按照时间递增的。用在分布式
 
 **时间回拨问题的解决方法**
 
+1. 当回拨时间小于15ms，就等时间追上来之后继续生成。
+2. 当时间大于15ms时间我们通过**更换workid**来产生之前都没有产生过的来解决回拨问题。
+
+
+
+**百度关于回拨问题的解决方案** 
+
+https://github.com/wenguang/uid-generator/blob/master/README.zh_cn.md
+
+
+
+
+
+[谈一谈 ID 发号器原理及期使用场景](https://juejin.im/entry/5c39e38fe51d4503834d4df0)
+
+[分布式唯一id：snowflake算法思考](https://juejin.im/post/5a7f9176f265da4e721c73a8)
 
